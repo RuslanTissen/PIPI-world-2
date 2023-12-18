@@ -1,0 +1,51 @@
+.howAdvantages {
+  background-color: black;
+}
+.howAdvantages .howAdvantages__container {
+  max-width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.5rem, 2vw, 1rem);
+  padding: 1rem;
+}
+.howAdvantages .howAdvantages__container h2 {
+  flex: 1 1 100%;
+  text-align: center;
+  font-family: "Gruppo", sans-serif;
+  margin: 4rem 0 0;
+  font-weight: 500;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.howAdvantages .howAdvantages__container h2:hover {
+  scale: 1.05;
+}
+.howAdvantages .howAdvantages__container .howAdvantages__container__boxes {
+  flex: 1 1 49%;
+  transition: all 0.3s ease-out;
+  text-align: center;
+  padding: clamp(1rem, 1vw, 2rem) clamp(1rem, 3vw, 3rem);
+}
+.howAdvantages .howAdvantages__container .howAdvantages__container__boxes img {
+  margin: 0 auto 1rem;
+  width: clamp(5rem, 22%, 7rem);
+  display: block;
+}
+.howAdvantages .howAdvantages__container .howAdvantages__container__boxes h3 {
+  font-weight: 500;
+  font-family: "Gruppo", sans-serif;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  margin: 0;
+  color: white;
+}
+.howAdvantages .howAdvantages__container .howAdvantages__container__boxes p {
+  font-family: "Tomorrow", sans-serif;
+  line-height: 1.1em;
+  font-size: clamp(0.8rem, 2vw, 1.3rem);
+  font-weight: 300;
+  color: white;
+}
+.howAdvantages .howAdvantages__container .services__branches__coontainer__boxes:hover {
+  background-color: rgb(245, 244, 244);
+}/*# sourceMappingURL=HowAdvantages.css.map */

@@ -1,0 +1,43 @@
+.technologies {
+	height: fit-content;
+	background-color: white;
+	.technologies__container {
+		max-width: 1500px;
+		padding: 1.5rem 1rem 4rem;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+		gap: clamp(1rem, 3vw, 4rem);
+		.technologies__container--title-box {
+			flex: 1 1 100%;
+			h2 {
+				width: fit-content;
+				margin: 1rem auto;
+				font-family: "Gruppo", sans-serif;
+				color: rgb(6, 27, 176);
+				font-weight: 500;
+				transition: all 0.3s ease-in-out;
+				text-align: center;
+			}
+		}
+		.technologies__boxes {
+			flex: 1 1 21%;
+			height: 100px;
+			text-decoration: none;
+			color: black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 0 1rem;
+			svg {
+				font-size: clamp(4rem, 6vw, 6rem);
+				transition: all 0.3s ease-out;
+			}
+		}
+		.technologies__boxes:hover > svg,
+		h2:hover {
+			scale: 1.05;
+		}
+	}
+
+}
