@@ -5,7 +5,6 @@ import { RxCross1 } from 'react-icons/rx';
 import { Context } from '../Context.js';
 import trans from '../Translate.js';
 import { NavLink, Outlet, Route, Routes } from 'react-router-dom';
-// import logo from "../../images/logo.png"
 import { BsGlobe } from "react-icons/bs"
 
 function Header() {
