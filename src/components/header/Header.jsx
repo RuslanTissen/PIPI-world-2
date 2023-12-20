@@ -51,15 +51,15 @@ function Header() {
 	return (
 		<div className='header' id='header'>
 			<ul className="header__logo--container" ref={menuRef}>
-				<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}>PIPI sports Psychology </NavLink> </li>
+				<li className='logo-box'><NavLink to="*" onClick={scrollToTheTop}>PIPI <br /> Sports <br /> Psychology</NavLink> </li>
 				<li className='hamburger-box' onClick={() => myFunction()} >
 					{active ? <RxHamburgerMenu /> : < RxCross1 />}
 				</li>
 				{show && <ul className="humburger-menu__container" onClick={() => myFunction()}>
-					<li className='first-li humburger-menu__container--link'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].about}</NavLink> </li>
-					<li className='second-li humburger-menu__container--link'><NavLink to="How" onClick={scrollToTheTop}>{trans[lang].services}</NavLink> </li>
-					<li className='li__career humburger-menu__container--link'><NavLink to="Careers" onClick={scrollToTheTop}>{trans[lang].plans}</NavLink> </li>
-					<li className='li__about humburger-menu__container--link'><NavLink to='About' onClick={scrollToTheTop}>{trans[lang].onlinePrograms}</NavLink></li>
+					<li className='first-li humburger-menu__container--link'><NavLink to="About" onClick={scrollToTheTop}>{trans[lang].about}</NavLink> </li>
+					<li className='second-li humburger-menu__container--link'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink> </li>
+					<li className='li__career humburger-menu__container--link'><NavLink to="Plans" onClick={scrollToTheTop}>{trans[lang].plans}</NavLink> </li>
+					<li className='li__about humburger-menu__container--link'><NavLink to='OnlinePrograms' onClick={scrollToTheTop}>{trans[lang].onlinePrograms}</NavLink></li>
 					<li className='li__contact humburger-menu__container--link'><NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>
 					<li className='li__burger sprachen humburger-menu__container--link'>
 						<button className="button-esp" value="es" onClick={(e) => setLang(e.target.value)}>ES</button>
@@ -71,11 +71,11 @@ function Header() {
 			<div className='header__big-container' >
 				<div className="ul__container">
 					<ul className='first-ul'>
-						<li className='li1'><NavLink to="*" onClick={scrollToTheTop}>PIPI sports Psychology </NavLink> </li>
-						<li className='li2 lis'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].about}</NavLink></li>
-						<li className='li3 lis'><NavLink to="How" onClick={scrollToTheTop}>{trans[lang].services}</NavLink></li>
-						<li className='li5 lis'><NavLink to="Careers" onClick={scrollToTheTop}>{trans[lang].plans}</NavLink> </li>
-						<li className='li4 lis'><NavLink to='About' onClick={scrollToTheTop}>{trans[lang].onlinePrograms}</NavLink> </li>
+						<li className='li1'><NavLink to="*" onClick={scrollToTheTop}>PIPI <br /> Sports <br /> Psychology</NavLink> </li>
+						<li className='li2 lis'><NavLink to="About" onClick={scrollToTheTop}>{trans[lang].about}</NavLink></li>
+						<li className='li3 lis'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink></li>
+						<li className='li5 lis'><NavLink to="Plans" onClick={scrollToTheTop}>{trans[lang].plans}</NavLink> </li>
+						<li className='li4 lis'><NavLink to='OnlinePrograms' onClick={scrollToTheTop}>{trans[lang].onlinePrograms}</NavLink> </li>
 						<li className='li6 '><NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>
 						<li className="dropdown" ref={languageRef} data-dropdown onClick={() => languagesFunction()}>
 							<button className='link' data-dropdown-button><BsGlobe /></button>

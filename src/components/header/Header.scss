@@ -8,29 +8,25 @@
 		position: fixed;
 		top: 0;
 		margin: 0;
-		padding: .5rem 1rem;
+		padding: 0.5rem clamp(1rem, 3vw, 3rem);
 		list-style-type: none;
 		display: flex;
 		background-color: black;
 		.logo-box {
-			width: 50%;
-			font-family: "Gruppo", sans-serif;
+			width: 80%;
+			font-family: "Open Sans", sans-serif;
+			font-style: to-upper-case;
 			font-size: 1.8rem;
 			display: flex;
 			align-items: center;
 			a {
 				text-decoration: none;
-				letter-spacing: 3px;
 				color: white;
-				height: 40px;
+				height: fit-content;
 				display: flex;
 				align-items: center;
-				padding: 5px;
-				margin: 5px;
-				font-weight: 500;
-				img {
-					width: 45px;
-				}
+				font-weight: 700;
+				line-height: 95%;
 			}
 		}
 		.hamburger-box {
