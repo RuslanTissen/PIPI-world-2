@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
-import { Context } from '../Context'
-import trans from '../Translate'
+import { Context } from '../../components/Context'
+import trans from '../../components/Translate'
 import techVideo from "../../videos/FigmaVideo.mp4"
 import pic1 from "../../images/Figma1smallImage.png"
 import pic2 from "../../images/Figma2smallImage.png"

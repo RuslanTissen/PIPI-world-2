@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Introduction.scss"
-import trans from '../Translate'
-import { Context } from '../Context'
+// import trans from '../../Translate' 
+import { Context } from '../../Context' 
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ function Introduction() {
 
 	return (
 		<div className='introdiuction'>
-			<div className="introdiuction__box--1">
+			{/* <div className="introdiuction__box--1">
 				<div className="introdiuction__box--1-title--container">
 					<h1>Global IT <br /> Outsourcing</h1>
 				</div>
@@ -29,7 +29,7 @@ function Introduction() {
 					<li>{trans[lang].project1} <mark>{trans[lang].project2}</mark> {trans[lang].project3}</li>
 					<li>{trans[lang].technologies1} <mark>{trans[lang].technologies2}</mark> </li>
 				</ul>
-			</div>
+			</div> */}
 		</div>
 	)
 }

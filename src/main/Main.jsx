@@ -1,36 +1,43 @@
 import React from 'react'
 import { Routes, Route, Outlet } from "react-router-dom"
 import Start from '../components/start/Start'
-import About from '../components/Routes/about/About'
-import Contact from '../components/Routes/contact/Contact'
-import Services from '../components/Routes/services/Services'
-import Careers from '../components/Routes/careers/Careers'
-import How from '../components/Routes/how/How'
-import SoftwareDevelopment from '../components/RoutesByServices/SoftwareDevelopment'
-import E_Commerce from '../components/RoutesByServices/E-Commerce'
-import CloudHosting from '../components/RoutesByServices/CloudHosting'
-import WebDevelopment from '../components/RoutesByServices/WebDevelopment'
-import MobileDevelopment from '../components/RoutesByServices/MobileDevelopment'
-import UX_UI from '../components/RoutesByServices/UX_UI'
-import JS from '../components/RoutesByTechnologies/JS.jsx'
-import GCP from '../components/RoutesByTechnologies/Microsoft_Azure'
-import Angular from '../components/RoutesByTechnologies/Angular'
-import Vue from '../components/RoutesByTechnologies/Vue'
-import React_Native from '../components/RoutesByTechnologies/React_Native'
-import AWS from '../components/RoutesByTechnologies/AWS'
-import Figma from '../components/RoutesByTechnologies/Figma'
-import Python from '../components/RoutesByTechnologies/Python'
-import MUI from '../components/RoutesByTechnologies/MUI'
-import Swift from '../components/RoutesByTechnologies/Swift'
-import MySQL from '../components/RoutesByTechnologies/MySQL'
-import CPlusPlus from '../components/RoutesByTechnologies/CPlusPlus'
+import About from "../components/about/About.jsx"
+
+// import About from '../components/Routes/about/About'
+// import Contact from '../components/Routes/contact/Contact'
+// import Services from '../components/Routes/services/Services'
+// import Careers from '../components/Routes/careers/Careers'
+// import How from '../components/Routes/how/How'
+// import SoftwareDevelopment from '../components/RoutesByServices/SoftwareDevelopment'
+// import E_Commerce from '../components/RoutesByServices/E-Commerce'
+// import CloudHosting from '../components/RoutesByServices/CloudHosting'
+// import WebDevelopment from '../components/RoutesByServices/WebDevelopment'
+// import MobileDevelopment from '../components/RoutesByServices/MobileDevelopment'
+// import UX_UI from '../components/RoutesByServices/UX_UI'
+// import JS from '../components/RoutesByTechnologies/JS.jsx'
+// import GCP from '../components/RoutesByTechnologies/Microsoft_Azure'
+// import Angular from '../components/RoutesByTechnologies/Angular'
+// import Vue from '../components/RoutesByTechnologies/Vue'
+// import React_Native from '../components/RoutesByTechnologies/React_Native'
+// import AWS from '../components/RoutesByTechnologies/AWS'
+// import Figma from '../components/RoutesByTechnologies/Figma'
+// import Python from '../components/RoutesByTechnologies/Python'
+// import MUI from '../components/RoutesByTechnologies/MUI'
+// import Swift from '../components/RoutesByTechnologies/Swift'
+// import MySQL from '../components/RoutesByTechnologies/MySQL'
+// import CPlusPlus from '../components/RoutesByTechnologies/CPlusPlus'
 
 function Main() {
 	return (
 		<main>
 			<Routes>
 				<Route path="*" element={<Start />} />
-				<Route path="Services" element={<Services />} />
+				<Route path="About" element={<About />} />
+
+
+
+
+				{/* <Route path="Services" element={<Services />} />
 				<Route path="How" element={<How />} />
 				<Route path="Careers" element={<Careers />} />
 				<Route path="About" element={<About />} />
@@ -53,7 +60,7 @@ function Main() {
 				<Route path='MUI' element={<MUI />} />
 				<Route path='Swift' element={<Swift />} />
 				<Route path='MySQL' element={<MySQL />} />
-				<Route path='CPlusPlus' element={<CPlusPlus />} />
+				<Route path='CPlusPlus' element={<CPlusPlus />} /> */}
 			</Routes>
 
 			{/* <Outlet />  */}
@@ -63,19 +70,3 @@ function Main() {
 }
 
 export default Main
-
-
-
-
-
-{/* <Introduction />
-
-<Moto />
-
-<Bloks />
-
-<hr></hr>
-
-<Technology />
-
-<Inside /> */}

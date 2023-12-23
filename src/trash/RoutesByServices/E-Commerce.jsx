@@ -1,12 +1,12 @@
 import React, { useContext } from 'react'
-import ModelPicture from './modulesForByServices/modelPicture/ModelPicture'
-import ModelTextBox1 from './modulesForByServices/modelTextBox1/ModelTextBox1'
-import ModelTextBox2 from './modulesForByServices/modelTextBox2/ModelTextBox2'
-import ModelVideo from './modulesForByServices/modelVideo/ModelVideo'
+import ModelPicture from './modulesForByServices/modelPicture/ModelPicture.jsx'
+import ModelTextBox1 from './modulesForByServices/modelTextBox1/ModelTextBox1.jsx'
+import ModelTextBox2 from './modulesForByServices/modelTextBox2/ModelTextBox2.jsx'
+import ModelVideo from './modulesForByServices/modelVideo/ModelVideo.jsx'
 import EComerceVideo from "../../videos/EComerceVideo.mp4"
-import ModelLastPicture from './modulesForByServices/modelLastPicture/ModelLastPicture'
-import trans from '../Translate.js'
-import { Context } from '../Context'
+import ModelLastPicture from './modulesForByServices/modelLastPicture/ModelLastPicture.jsx'
+import trans from '../../components/Translate.js'
+import { Context } from '../../components/Context.js'
 
 function E_Commerce() {
 	const {lang} = useContext(Context)

@@ -1,5 +1,5 @@
 import Header from './components/header/Header.jsx';
-// import Main from './main/Main.jsx';
+import Main from './main/Main.jsx';
 import Footer from './components/footer/Footer';
 import "./App.scss"
 
@@ -11,7 +11,7 @@ function App() {
 
 			<Header />
 
-			{/* <Main /> */}
+			<Main />
 
 			<Footer />
 

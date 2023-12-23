@@ -26,27 +26,27 @@ function Steps() {
 				</div>
 
 				<NavLink to="/SoftwareDevelopment" onClick={scrollToTheTop} className="steps__main--container--boxes">
-					<img src={offer1} alt='Ups, image is lost'/>
+					<img src={offer1} alt='Ups, image is lost' />
 					<p className='text__include'>{trans[lang].softwareDevelopment}</p>
 				</NavLink>
 				<NavLink to="/E_Commerce" onClick={scrollToTheTop} className="steps__main--container--boxes">
-					<img src={offer2} alt='Ups, image is lost'/>
+					<img src={offer2} alt='Ups, image is lost' />
 					<p className='text__include'>{trans[lang].e_commerceDevelopment}</p>
 				</NavLink>
 				<NavLink to="/CloudHosting" onClick={scrollToTheTop} className="steps__main--container--boxes">
-					<img src={offer3} alt='Ups, image is lost'/>
+					<img src={offer3} alt='Ups, image is lost' />
 					<p className='text__include'>{trans[lang].cloudHosting}</p>
 				</NavLink>
 				<NavLink to="/WebDevelopment" onClick={scrollToTheTop} className="steps__main--container--boxes">
-					<img src={offer4} alt='Ups, image is lost'/>
+					<img src={offer4} alt='Ups, image is lost' />
 					<p className='text__include'>{trans[lang].desarrolloWeb}</p>
 				</NavLink>
 				<NavLink to="/MobileDevelopment" onClick={scrollToTheTop} className="steps__main--container--boxes">
-					<img src={offer5} alt='Ups, image is lost'/>
+					<img src={offer5} alt='Ups, image is lost' />
 					<p className='text__include'>{trans[lang].desarrolloMobile}</p>
 				</NavLink>
 				<NavLink to="UX_UI" onClick={scrollToTheTop} className="steps__main--container--boxes">
-					<img src={offer6} alt='Ups, image is lost'/>
+					<img src={offer6} alt='Ups, image is lost' />
 					<p className='text__include'>UX/UI</p>
 				</NavLink>
 			</div>
