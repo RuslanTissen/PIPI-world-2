@@ -30,7 +30,7 @@ function Header() {
 	})
 
 	const scrollToTheTop = () => {
-		window.scrollTo({top: 0, behavior: 'smooth'})
+		window.scrollTo({ top: 0, behavior: 'smooth' })
 	}
 
 	function languagesFunction() {
@@ -72,11 +72,14 @@ function Header() {
 				<div className="ul__container">
 					<ul className='first-ul'>
 						<li className='li1'><NavLink to="*" onClick={scrollToTheTop}>PIPI`s <br /> SPORTS <br />PSYCHOLOGY</NavLink> </li>
+					</ul>
+					
+					<ul className="second-ul">
 						<li className='li2 lis'><NavLink to="About" onClick={scrollToTheTop}>{trans[lang].about}</NavLink></li>
 						<li className='li3 lis'><NavLink to="Services" onClick={scrollToTheTop}>{trans[lang].services}</NavLink></li>
 						<li className='li5 lis'><NavLink to="Plans" onClick={scrollToTheTop}>{trans[lang].plans}</NavLink> </li>
 						<li className='li4 lis'><NavLink to='OnlinePrograms' onClick={scrollToTheTop}>{trans[lang].onlinePrograms}</NavLink> </li>
-						<li className='li6 '><NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>
+						<li className='li6 lis'><NavLink to="Contact" onClick={scrollToTheTop}>{trans[lang].contact}</NavLink> </li>
 						<li className="dropdown" ref={languageRef} data-dropdown onClick={() => languagesFunction()}>
 							<button className='link' data-dropdown-button><BsGlobe /></button>
 							{showLanguages && <div className='dropdown-menu'>
@@ -84,7 +87,6 @@ function Header() {
 								<button className="button-eng" value="en" onClick={(e) => setLang(e.target.value)}>EN</button>
 							</div>}
 						</li>
-
 					</ul>
 				</div>
 			</div>
