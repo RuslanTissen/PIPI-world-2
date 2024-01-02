@@ -5,9 +5,7 @@
 // }
 
 .introduction__container {
-	// width: 100vw;
-	// height: 1000px;
-	padding: 20em;
+	font-family: "Open Sans", sans-serif;
 	background-image: url("../../../images/introduction.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -16,7 +14,26 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	h1 {
+	display: flex;
+	flex-direction: column;
+	padding-top: 9rem;
+	.introduction__container--social-media {
+		width: 100%;
+		padding: 0.5rem clamp(1rem, 3vw, 3rem);
+
+		.introduction__container--social-media__links {
+			color: white;
+			font-size: clamp(1.5rem, 3vw, 3rem);
+			padding-left: 1rem;
+		}
+	}
+	.introduction__container--moto {
 		color: white;
+		font-size: clamp(2.8rem, 13vw, 7rem);
+		font-weight: 800;
+		line-height: 90%;
+		margin: 2.5rem clamp(1rem, 3vw, 3rem);
+		text-transform: uppercase;
+		letter-spacing: clamp(2px, 5vw, 3px);
 	}
 }
