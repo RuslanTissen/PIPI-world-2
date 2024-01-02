@@ -38,8 +38,8 @@
 			justify-content: end;
 			transition: all 0.3s ease-in-out;
 			svg {
-				font-size: 2rem;
-				color: white;
+				font-size: clamp(3rem, 3vw, 4rem);
+				color:#E8C061;
 				margin: 5px;
 				transition: all 0.2s ease-in-out;
 			}
