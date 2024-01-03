@@ -1,7 +1,7 @@
 import React, { useRef } from 'react'
 import "./Introduction.scss"
 import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
-import { SiGmail, SiUpwork} from "react-icons/si";
+import { SiGmail, SiUpwork } from "react-icons/si";
 import { Context } from '../../Context'
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom';
@@ -23,6 +23,8 @@ function Introduction() {
 				<a className='introduction__container--social-media__links' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
 			</div>
 			<p className='introduction__container--moto'>Maximize Your Full Potential.</p>
+			<p className='introduction__container--moto-itlice'>Take control of your body through discipline</p>
+
 		</div>
 	)
 }

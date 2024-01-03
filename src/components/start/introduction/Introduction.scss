@@ -13,17 +13,17 @@
 	background-position: top -100px center;
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	// align-items: center;
 	display: flex;
 	flex-direction: column;
-	padding-top: 9rem;
+	padding-top: 11rem;
 	.introduction__container--social-media {
 		width: 100%;
 		padding: 0.5rem clamp(1rem, 3vw, 3rem);
 
 		.introduction__container--social-media__links {
 			color: white;
-			font-size: clamp(1.5rem, 3vw, 3rem);
+			font-size: clamp(2rem, 4vw, 3rem);
 			padding-left: 1rem;
 		}
 	}
@@ -32,8 +32,15 @@
 		font-size: clamp(2.8rem, 13vw, 7rem);
 		font-weight: 800;
 		line-height: 90%;
-		margin: 2.5rem clamp(1rem, 3vw, 3rem);
+		margin: 3.5rem clamp(1rem, 3vw, 3rem) 1rem;
 		text-transform: uppercase;
 		letter-spacing: clamp(2px, 5vw, 3px);
+		word-spacing: clamp(5px, 2vw, 8px);
+	}
+	.introduction__container--moto-itlice {
+		color: #e8c061;
+		font-size: clamp(1.5rem, 4vw, 1.8rem);
+		margin: 0rem clamp(1rem, 3vw, 3rem) 2.5rem;
+		font-style: italic;
 	}
 }
