@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import "./Introduction.scss"
-import { FaWhatsapp, FaInstagram } from 'react-icons/fa'
+import { FaWhatsapp, FaInstagram, FaArrowRight } from 'react-icons/fa'
 import { SiGmail, SiUpwork } from "react-icons/si";
 import { Context } from '../../Context'
 import { useContext } from 'react'
@@ -23,7 +23,11 @@ function Introduction() {
 				<a className='introduction__container--social-media__links' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
 			</div>
 			<p className='introduction__container--moto'>Maximize Your Full Potential.</p>
-			<p className='introduction__container--moto-itlice'>Take control of your body through discipline</p>
+			<p className='introduction__container--moto-italice'>Take control of your body through discipline</p>
+			<div className="introduction__container--button">
+				<NavLink className="introduction__container--button-text" to="Contact" onClick={scrollToTheTop}>Book now </NavLink>
+				<NavLink className="introduction__container--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
+			</div>
 
 		</div>
 	)

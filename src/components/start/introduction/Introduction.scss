@@ -6,24 +6,22 @@
 
 .introduction__container {
 	font-family: "Open Sans", sans-serif;
-	background-image: url("../../../images/introduction.png");
+	background-image: url("../../../images/introduction-light-dark.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-position: top -100px center;
+	background-position: top -220px center;
 	display: flex;
 	justify-content: center;
-	// align-items: center;
 	display: flex;
 	flex-direction: column;
 	padding-top: 11rem;
 	.introduction__container--social-media {
 		width: 100%;
-		padding: 0.5rem clamp(1rem, 3vw, 3rem);
-
+		margin: 0.5rem clamp(1rem, 3vw, 3rem);
 		.introduction__container--social-media__links {
 			color: white;
-			font-size: clamp(2rem, 4vw, 3rem);
+			font-size: clamp(1.5rem, 4vw, 2rem);
 			padding-left: 1rem;
 		}
 	}
@@ -37,10 +35,60 @@
 		letter-spacing: clamp(2px, 5vw, 3px);
 		word-spacing: clamp(5px, 2vw, 8px);
 	}
-	.introduction__container--moto-itlice {
+	.introduction__container--moto-italice {
 		color: #e8c061;
-		font-size: clamp(1.5rem, 4vw, 1.8rem);
-		margin: 0rem clamp(1rem, 3vw, 3rem) 2.5rem;
+		font-size: clamp(1.5rem, 4vw, 2.5rem);
+		margin: 0rem clamp(1rem, 3vw, 3rem);
 		font-style: italic;
+	}
+	.introduction__container--button {
+		display: flex;
+		align-items: center;
+		margin: 5rem clamp(1rem, 3vw, 3rem) 6rem;
+		.introduction__container--button-text {
+			padding: 0.5rem 1.5rem;
+			color: rgb(45, 46, 45);
+			text-decoration: none;
+			background-color: white;
+			font-size: clamp(1rem, 3vw, 1.3rem);
+			border: none;
+			text-transform: uppercase;
+			font-weight: 800;
+			letter-spacing: 2px;
+			word-spacing: 5px;
+		}
+		.introduction__container--button-arrow {
+			padding: 0.5rem 1rem;
+			font-size: clamp(1rem, 3vw, 1.3rem);
+			border: none;
+			color: rgb(45, 46, 45);
+			background-color: #e8c061;
+		}
+	}
+	@media (min-width: 1060px) {
+		background-position: top -270px center;
+		position: relative;
+		.introduction__container--social-media {
+			position: fixed;
+			display: flex;
+			flex-direction: column;
+			margin: 0.5rem auto -18rem;
+			.introduction__container--social-media__links {
+				font-size: 1.5rem;
+				margin-bottom: .5rem;
+			}
+		}
+		.introduction__container--moto {
+			max-width: 800px;
+			letter-spacing: 5px;
+			margin: 0.5rem clamp(5rem, 10vw, 10rem);
+		}
+		.introduction__container--moto-italice {
+			max-width: 800px;
+			margin: 0.5rem clamp(5rem, 10vw, 10rem);
+		}
+		.introduction__container--button {
+			margin: 7rem clamp(5rem, 10vw, 10rem) 10rem;
+		}
 	}
 }

@@ -4,7 +4,7 @@ import Start from '../components/start/Start'
 import About from "../components/about/About.jsx"
 
 // import About from '../components/Routes/about/About'
-// import Contact from '../components/Routes/contact/Contact'
+import Contact from '../components/Routes/contact/Contact'
 // import Services from '../components/Routes/services/Services'
 // import Careers from '../components/Routes/careers/Careers'
 // import How from '../components/Routes/how/How'
@@ -33,6 +33,7 @@ function Main() {
 			<Routes>
 				<Route path="*" element={<Start />} />
 				<Route path="About" element={<About />} />
+				<Route path="Contact" element={<Contact />} />
 
 
 
@@ -41,7 +42,6 @@ function Main() {
 				<Route path="How" element={<How />} />
 				<Route path="Careers" element={<Careers />} />
 				<Route path="About" element={<About />} />
-				<Route path="Contact" element={<Contact />} />
 				<Route path='SoftwareDevelopment' element={<SoftwareDevelopment />} />
 				<Route path='E_Commerce' element={<E_Commerce />} />
 				<Route path='CloudHosting' element={<CloudHosting />} />
