@@ -5,7 +5,7 @@ import { SiGmail, SiUpwork } from "react-icons/si";
 import { Context } from '../../Context'
 import { useContext } from 'react'
 import { NavLink } from 'react-router-dom';
-import trans from '../../Translate.js';
+// import trans from '../../Translate.js';
 
 function Introduction() {
 	const { lang, setLang } = useContext(Context)
@@ -17,10 +17,15 @@ function Introduction() {
 	return (
 		<div className="introduction__container">
 			<div className="introduction__container--social-media">
-				<a className='introduction__container--social-media__links' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
-				<NavLink className='introduction__container--social-media__links' to="Contact" onClick={scrollToTheTop}><SiGmail /></NavLink>
-				<a className='introduction__container--social-media__links' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
-				<a className='introduction__container--social-media__links' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
+				<div className="introduction__container--social-media--link-container">
+					<a className='introduction__container--social-media__links' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
+					<NavLink className='introduction__container--social-media__links' to="Contact" onClick={scrollToTheTop}><SiGmail /></NavLink>
+					<a className='introduction__container--social-media__links' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
+					<a className='introduction__container--social-media__links' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
+				</div>
+				<div className="introduction__container--social-media--scroll-container">
+					<p>SCROLL <FaArrowRight /></p>
+				</div>
 			</div>
 			<p className='introduction__container--moto'>Maximize Your Full Potential.</p>
 			<p className='introduction__container--moto-italice'>Take control of your body through discipline</p>
@@ -28,7 +33,6 @@ function Introduction() {
 				<NavLink className="introduction__container--button-text" to="Contact" onClick={scrollToTheTop}>Book now </NavLink>
 				<NavLink className="introduction__container--button-arrow" to="Contact" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
 			</div>
-
 		</div>
 	)
 }

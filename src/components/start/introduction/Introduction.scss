@@ -6,13 +6,13 @@
 
 .introduction__container {
 	font-family: "Open Sans", sans-serif;
-	background-image: url("../../../images/introduction-light-dark.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
 	background-attachment: fixed;
+	justify-content: center;
+	background-image: url("../../../images/introduction-light-dark.jpg");
 	background-position: top -220px center;
 	display: flex;
-	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	padding-top: 11rem;
@@ -22,7 +22,10 @@
 		.introduction__container--social-media__links {
 			color: white;
 			font-size: clamp(1.5rem, 4vw, 2rem);
-			padding-left: 1rem;
+			margin-left: 1rem;
+		}
+		.introduction__container--social-media--scroll-container {
+			display: none;
 		}
 	}
 	.introduction__container--moto {
@@ -66,22 +69,45 @@
 		}
 	}
 	@media (min-width: 1060px) {
-		background-position:top -40vw center;
+		background-position: top -40vw center;
 		position: relative;
 		.introduction__container--social-media {
 			position: fixed;
-			display: flex;
-			flex-direction: column;
 			margin: 0.5rem auto -18rem;
-			.introduction__container--social-media__links {
-				font-size: 1.5rem;
-				margin-bottom: .5rem;
+			display: flex;
+			justify-content: space-between;
+			.introduction__container--social-media--link-container {
+				display: flex;
+				flex-direction: column;
+				.introduction__container--social-media__links {
+					font-size: 1.5rem;
+					margin-bottom: 0.5rem;
+					width: fit-content;
+				}
+			}
+			.introduction__container--social-media--scroll-container {
+				width: fit-content;
+				height: fit-content;
+				display: flex;
+				transform: rotate(90deg);
+				margin: auto 0;
+				p {
+					width: inherit;
+					color: white;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					margin: 0;
+					svg {
+									margin:0 1rem 0;
+								}
+				}
 			}
 		}
 		.introduction__container--moto {
 			max-width: 800px;
 			letter-spacing: 5px;
-			margin: 0.5rem clamp(5rem, 10vw, 10rem);
+			margin: clamp(0.5rem, 4vw, 4rem) clamp(5rem, 10vw, 10rem) 0.5rem;
 		}
 		.introduction__container--moto-italice {
 			max-width: 800px;
@@ -89,6 +115,18 @@
 		}
 		.introduction__container--button {
 			margin: 7rem clamp(5rem, 10vw, 10rem) 10rem;
+			// 	position: fixed;
+			// 	p {
 		}
+		// 	right: 0;
+		// 	transform: rotate(90deg);
+		// .introduction__container--scroll-container {
+		// 	display: flex;
+		// 		color: white;
+		// 		svg {
+		// 			margin-inline: 1rem;
+		// 		}
+		// 	}
+		// }
 	}
 }
