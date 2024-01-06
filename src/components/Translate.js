@@ -6,21 +6,29 @@ const trans = {
 		onlinePrograms: "online programs",
 		contact: "contact",
 		// Footer
-		footerServices: "Services",
-		footerSoftware: "Software Development",
-		footerSecurity: "Network Security",
-		footerCloud: "Cloud Hosting ",
-		footerWeb: "Web Development",
-		footerMobile: "Mobile Development",
-		footerTechnologies: "Technologies",
-		footerCompany: "Company",
-		footerAbout: "About us",
-		footerCarrers: "Carrers",
-		footerWhy: "Why us",
-		footerHow: "How us ",
-		footerContact: "Contact us",
-		footerEmail: "Email",
-		footerPhone: "Phones",
+		footerContact: "BOOK NOW",
+
+
+		// footerServices: "Services",
+		// footerSoftware: "Software Development",
+		// footerSecurity: "Network Security",
+		// footerCloud: "Cloud Hosting ",
+		// footerWeb: "Web Development",
+		// footerMobile: "Mobile Development",
+		// footerTechnologies: "Technologies",
+		// footerCompany: "Company",
+		// footerAbout: "About us",
+		// footerCarrers: "Carrers",
+		// footerWhy: "Why us",
+		// footerHow: "How us ",
+		// footerContact: "Contact us",
+		// footerEmail: "Email",
+		// footerPhone: "Phones",
+
+
+
+
+
 		// Services
 		servicesRouter: "Services",
 		servicesSoftwareDevelopmentTitle: "Software Development",

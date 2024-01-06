@@ -11,7 +11,7 @@
 		padding: 0.5rem clamp(1rem, 3vw, 3rem);
 		list-style-type: none;
 		display: flex;
-		background: rgba(0, 0, 0, 0.0);
+		background: rgba(0, 0, 0, 0);
 		.logo-box {
 			width: 80%;
 			font-family: "Open Sans", sans-serif;
@@ -23,11 +23,20 @@
 				text-decoration: none;
 				color: white;
 				height: fit-content;
-				display: flex;
-				align-items: center;
+				// display: flex;
+				// align-items: center;
 				font-weight: 700;
-				font-style:to-upper-case;
+				font-style: to-upper-case;
 				line-height: 95%;
+				span {
+					display: block;
+					svg {
+						font-size: 1.1rem;
+						color: #e8c061;
+						// margin-block: auto;
+						margin: 0;
+					}
+				}
 			}
 		}
 		.hamburger-box {
@@ -39,7 +48,7 @@
 			transition: all 0.3s ease-in-out;
 			svg {
 				font-size: clamp(3rem, 3vw, 4rem);
-				color:#E8C061;
+				color: #e8c061;
 				margin: 5px;
 				transition: all 0.2s ease-in-out;
 			}
@@ -106,7 +115,7 @@
 				position: absolute;
 				top: 0;
 				width: 100%;
-				background: rgba(0, 0, 0, 0.0);
+				background: rgba(0, 0, 0, 0);
 				z-index: 100;
 				display: flex;
 				.first-ul {
@@ -118,24 +127,29 @@
 					list-style-type: none;
 					.li1 {
 						flex: 1 1 20%;
-						font-family: "Geologica", sans-serif;
+						font-family: "Open Sans", sans-serif;
+						font-style: to-upper-case;
 						font-size: 1.8rem;
+						display: flex;
 						a {
-							letter-spacing: 3px;
 							text-decoration: none;
-							width: fit-content;
-							display: flex;
-							align-items: center;
-							font-weight: 700;
 							color: white;
-							transition: all 0.3s ease-in-out;
-							img {
-								width: 45px;
+							height: fit-content;
+							font-weight: 700;
+							font-style: to-upper-case;
+							line-height: 95%;
+							span {
+								display: block;
+								svg {
+									font-size: 1.1rem;
+									color: #e8c061;
+									margin: 0;
+								}
 							}
 						}
 					}
 				}
-				.second-ul{
+				.second-ul {
 					flex: 1 1 auto;
 					max-width: 850px;
 					display: flex;
@@ -202,7 +216,7 @@
 					.lis button:hover,
 					.dropdown .link:hover,
 					.dropdown-menu button:hover {
-						color:#E8C061;
+						color: #e8c061;
 					}
 				}
 			}
