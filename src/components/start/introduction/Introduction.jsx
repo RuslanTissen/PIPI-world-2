@@ -18,10 +18,10 @@ function Introduction() {
 		<div className="introduction__container">
 			<div className="introduction__container--social-media">
 				<div className="introduction__container--social-media--link-container">
-					<a className='introduction__container--social-media__links' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
 					<NavLink className='introduction__container--social-media__links' to="Contact" onClick={scrollToTheTop}><SiGmail /></NavLink>
-					<a className='introduction__container--social-media__links' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
+					<a className='introduction__container--social-media__links' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
 					<a className='introduction__container--social-media__links' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
+					<a className='introduction__container--social-media__links' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
 				</div>
 				<div className="introduction__container--social-media--scroll-container">
 					<p>SCROLL <FaArrowRight /></p>

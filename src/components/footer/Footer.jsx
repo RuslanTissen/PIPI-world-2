@@ -60,6 +60,7 @@ function Footer() {
 				<NavLink to="MySQL" onClick={scrollToTheTop}>MySQL</NavLink>
 				<NavLink to="CPlusPlus" onClick={scrollToTheTop}>C++</NavLink> */}
 			</div>
+			
 			<div className="footer__menu footer__operation--block">
 				<h2>MENU</h2>
 
@@ -79,17 +80,17 @@ function Footer() {
 			</div>
 
 			<div className="footer__logo footer__operation--block">
-				<p2 className='logo-box'><NavLink className='logo-box' to="*" onClick={scrollToTheTop}><span>PIPI` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink> </p2>
+				<h2 className='footer__logo--logo-box' ><NavLink to="*" onClick={scrollToTheTop}><span>PIPI` <IoDiamondSharp /></span>SPORTS  <span />PHILOSOPHY <span /></NavLink></h2>
 
 				<div className="footer__logo--social-container">
-					<a className='footer__logo--social' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
-					<NavLink className='footer__logo--social' to="Contact" onClick={scrollToTheTop}><SiGmail /></NavLink>
-					<a className='footer__logo--social' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
-					<a className='footer__logo--social' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
+					<NavLink className='footer__logo--social-container-link' to="Contact" onClick={scrollToTheTop}><SiGmail /></NavLink>
+					<a className='footer__logo--social-container-link' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
+					<a className='footer__logo--social-container-link' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
+					<a className='footer__logo--social-container-link' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
 				</div>
 
-				<p>© 2035 by Apex. Powered </p>
-				<p>and secured by Wix</p>
+				<p>© 2024 by TISSEN  Powered</p>
+				{/* <p>and secured by Wix</p> */}
 
 				{/* <div className="footer__container--section-2-logos">
 					<NavLink to="*" onClick={scrollToTheTop}> PIPI sports Psychology </NavLink>
