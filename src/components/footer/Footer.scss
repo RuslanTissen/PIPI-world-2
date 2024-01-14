@@ -1,7 +1,7 @@
 .footer {
 	background-color: rgb(10, 10, 10);
 	color: white;
-	padding: 2.5rem clamp(1rem, 3vw, 3rem);
+	padding: 2.5rem clamp(2rem, 3vw, 3rem);
 	font-family: "Open Sans", sans-serif;
 	display: flex;
 	flex-wrap: wrap;
@@ -16,14 +16,14 @@
 			white-space: nowrap;
 			letter-spacing: clamp(0.05rem, 1vw, 0.1rem);
 		}
-		h2{
+		h2 {
 			margin-top: 0;
 		}
 		p {
 			line-height: clamp(0.75rem, 1vw, 1rem);
 			letter-spacing: 1px;
 			white-space: nowrap;
-			margin: .75rem 0;
+			margin: 0.75rem 0;
 			svg {
 				color: #e8c061;
 				margin: 0 0.3rem 0 0;
@@ -38,8 +38,8 @@
 			text-transform: uppercase;
 			letter-spacing: 3px;
 			text-decoration: none;
-			border: #e8c061 solid 1px;
-			margin: 2.2rem 0;
+			border: #e8c061 solid .5px;
+			margin: 2rem 0 1rem;
 			display: block;
 			width: fit-content;
 		}
@@ -47,7 +47,7 @@
 			opacity: 0;
 		}
 		.footer__logo--logo-box {
-			letter-spacing: normal; 
+			letter-spacing: normal;
 			display: flex;
 			align-items: center;
 			a {
@@ -67,13 +67,15 @@
 				}
 			}
 		}
-		.footer__logo--social-container{
+		.footer__logo--social-container {
+			max-width: 200px;
 			margin: 2rem 0 1.5rem;
-			.footer__logo--social-container-link{
+			display: flex;
+			justify-content: space-between;
+			.footer__logo--social-container-link {
 				color: white;
 				font-size: 2rem;
-				margin: 0 2rem 0 0 ;
-
+				// margin: 0 2rem 0 0 ;
 			}
 		}
 	}
@@ -88,18 +90,29 @@
 			p {
 				line-height: clamp(0.75rem, 1vw, 1rem);
 			}
-		}
-		.footer__logo{
-			order: 1;
-		}
-		.footer__operation{
-			order: 2;
-		}
-		.footer__contact{
-			order: 3;
-		}
-		.footer__menu{
-			order: 4;
+			.footer__logo {
+				order: 1;
+			}
+			.footer__operation {
+				order: 2;
+			}
+			.footer__contact {
+				order: 3;
+			}
+			.footer__menu {
+				order: 4;
+			}
+			.footer__logo--social-container {
+				max-width: 300px;
+			}
+			.footer__menu--link-to-contact {
+				font-weight: 800;
+				transition: all 0.3s ease-in-out;
+			}
+			.footer__menu--link-to-contact:hover {
+				color: white;
+				border-color: white;
+			}
 		}
 	}
 }
