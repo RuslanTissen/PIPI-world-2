@@ -90,20 +90,8 @@
 			p {
 				line-height: clamp(0.75rem, 1vw, 1rem);
 			}
-			.footer__logo {
-				order: 1;
-			}
-			.footer__operation {
-				order: 2;
-			}
-			.footer__contact {
-				order: 3;
-			}
-			.footer__menu {
-				order: 4;
-			}
 			.footer__logo--social-container {
-				max-width: 300px;
+				max-width: 250px;
 			}
 			.footer__menu--link-to-contact {
 				font-weight: 800;
@@ -113,6 +101,18 @@
 				color: white;
 				border-color: white;
 			}
+		}
+		.footer__logo {
+			order: 1;
+		}
+		.footer__operation {
+			order: 2;
+		}
+		.footer__contact {
+			order: 3;
+		}
+		.footer__menu {
+			order: 4;
 		}
 	}
 }
