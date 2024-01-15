@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Start.scss"
 import Introduction from './introduction/Introduction'  
-// import Moto from './moto/Moto.jsx';
+import About from '../about/About.jsx';
 // import ByServices from './byServices/ByServices.jsx';
 // import Technologies from './technologies/Technologies.jsx';
 // import Statement from './statement/Statement.jsx';
@@ -12,15 +12,15 @@ function Start() {
 		<div className='starts'>
 			<Introduction />
 
-			{/* <Moto />
+			<About />
 
-			<ByServices />
+			{/* <ByServices /> */}
 
-			<Technologies />
+			{/* <Technologies /> */}
 
-			<Statement />
+			{/* <Statement /> */}
 
-			<Location /> */}
+			{/* <Location /> */}
 
 		</div>
 	)

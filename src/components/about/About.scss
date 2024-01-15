@@ -1,0 +1,47 @@
+.about__container {
+	display: flex;
+	flex-direction: column;
+	.about__container--text-container {
+		flex: 1 1 100%;
+		background-color: rgb(90, 54, 58);
+		font-family: "Open Sans", sans-serif;
+		color: white;
+		.about__container--text-container__title {
+			font-size: 3rem;
+			font-weight: 700;
+			margin: 5rem clamp(2rem, 3vw, 3rem) 0;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 800;
+			letter-spacing: 3px;
+		}
+		.about__container--text-container__underline-dig {
+			width: 200px;
+			height: 0.5rem;
+			background-color: rgb(166, 148, 148);
+			margin: 0 0.5rem 0 clamp(2rem, 3vw, 3rem);
+		}
+		.about__container--text-container__underline-thin {
+			width: auto;
+			height: 1px;
+			background-color: rgb(166, 148, 148);
+			margin: 0 0.5rem 0 clamp(2rem, 3vw, 3rem);
+		}
+		.about__container--text-container__text-about {
+			max-width: 400px;
+			margin: 2rem clamp(5rem, 7vw, 7rem) 5rem clamp(2rem, 3vw, 3rem);
+			font-size: 1.5rem;
+			font-weight: 100;
+			color: rgb(221, 220, 220);
+		}
+	}
+
+	.about__container--image-container {
+		width: auto;
+		height: 500px;
+		background-attachment: fixed;
+		background-image: url("../../images/about.jpg");
+		background-position: top center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
