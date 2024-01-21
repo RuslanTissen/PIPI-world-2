@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Start.scss"
 import Introduction from './introduction/Introduction'  
-import About from '../about/About.jsx';
+import About from './about/About.jsx'
 // import ByServices from './byServices/ByServices.jsx';
 // import Technologies from './technologies/Technologies.jsx';
 // import Statement from './statement/Statement.jsx';

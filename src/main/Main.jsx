@@ -1,7 +1,7 @@
 import React from 'react'
 import { Routes, Route, Outlet } from "react-router-dom"
 import Start from '../components/start/Start'
-import About from "../components/about/About.jsx"
+import About from '../components/start/about/About.jsx'
 
 // import About from '../components/Routes/about/About'
 import Contact from '../components/Routes/contact/Contact'
