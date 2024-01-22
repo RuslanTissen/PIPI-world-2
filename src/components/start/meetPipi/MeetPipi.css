@@ -1,1 +1,8 @@
-/*# sourceMappingURL=MeetPipi.css.map */
+.meet-pipi__container {
+  background-color: rgb(45, 46, 45);
+  color: white;
+}
+.meet-pipi__container .meet-pipi__container--title {
+  font-weight: 800;
+  text-transform: uppercase;
+}/*# sourceMappingURL=MeetPipi.css.map */
