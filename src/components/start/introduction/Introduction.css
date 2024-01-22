@@ -1,102 +1,126 @@
-.introdiuction {
-  max-width: 1500px;
-  margin: 0 auto;
-  height: -moz-fit-content;
-  height: fit-content;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 45px;
-  color: white;
-  padding: 0 1rem;
-  background-image: url("../../images/points.jpg");
-  background-position: center;
+.introduction__container {
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  background-attachment: fixed;
+  background-image: url("../../../images/introduction-light-dark.jpg");
+  background-position: top -350px center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-.introdiuction .introdiuction__box--1 {
-  flex: 1 1 100%;
-  height: clamp(250px, 100vw - 400px, 350px);
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  padding-top: 11rem;
 }
-.introdiuction .introdiuction__box--1 .introdiuction__box--1-title--container {
-  text-align: center;
+.introduction__container .introduction__container--social-media {
+  width: 100%;
+  margin: 0.5rem clamp(2rem, 3vw, 3rem);
 }
-.introdiuction .introdiuction__box--1 .introdiuction__box--1-title--container h1 {
-  font-family: "Gruppo", sans-serif;
-  font-weight: 500;
-  font-size: clamp(2.5rem, 4vw, 4.5rem);
-  transition: all 0.3s ease-in-out;
-  margin: 2.5rem 0 0;
+.introduction__container .introduction__container--social-media .introduction__container--social-media__links {
+  color: white;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  margin-left: 1rem;
 }
-.introdiuction .introdiuction__box--1 .introdiuction__box--1-title--container h1:hover {
-  scale: 1.05;
+.introduction__container .introduction__container--social-media .introduction__container--social-media--scroll-container {
+  display: none;
 }
-.introdiuction .introdiuction__box--1 .introdiuction__box--1-button-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.introdiuction .introdiuction__box--1 .introdiuction__box--1-button-container a {
-  font-family: "Tomorrow", sans-serif;
-  text-decoration: none;
-  font-weight: 500;
+.introduction__container .introduction__container--moto {
+  color: white;
+  font-size: clamp(2.8rem, 13vw, 7rem);
+  font-weight: 800;
+  line-height: 90%;
+  margin: 3.5rem clamp(2rem, 3vw, 3rem) 1rem;
   text-transform: uppercase;
-  padding: clamp(0.4rem, 1.5vw, 0.9rem) clamp(1.5rem, 6vw, 4rem);
-  font-size: clamp(0.8rem, 1.2vw, 1.2rem);
-  text-align: center;
-  color: rgb(6, 27, 176);
-  border: none;
-  transition: all 0.3s ease-out;
-  background-color: white;
+  letter-spacing: clamp(2px, 5vw, 3px);
+  word-spacing: clamp(5px, 2vw, 8px);
 }
-.introdiuction .introdiuction__box--1 .introdiuction__box--1-button-container a:hover {
-  color: white;
-  background-color: rgb(6, 27, 176);
+.introduction__container .introduction__container--moto-italice {
+  color: #e8c061;
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  margin: 0rem clamp(2rem, 3vw, 3rem);
+  font-style: italic;
 }
-.introdiuction .introdiuction__box--2 {
-  flex: 1 1 100%;
-  height: clamp(150px, 100vw - 500px, 280px);
+.introduction__container .introduction__container--button {
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin: 5rem clamp(2rem, 3vw, 3rem) 6rem;
 }
-.introdiuction .introdiuction__box--2 .introdiuction__contact-container {
-  font-family: "Tomorrow", sans-serif;
-  font-weight: 400;
-  height: 40%;
+.introduction__container .introduction__container--button .introduction__container--button-text {
+  padding: 0.5rem 1.5rem;
+  color: rgb(45, 46, 45);
+  text-decoration: none;
+  background-color: white;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 2px;
+  word-spacing: 5px;
 }
-.introdiuction .introdiuction__box--2 .introdiuction__contact-container li {
-  font-size: clamp(1rem, 1.5vw, 1.4rem);
-}
-.introdiuction .introdiuction__box--2 .introdiuction__contact-container li mark {
-  background-color: transparent;
-  font-weight: 700;
-  color: white;
+.introduction__container .introduction__container--button .introduction__container--button-arrow {
+  padding: 0.5rem 1rem;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  border: none;
+  color: rgb(45, 46, 45);
+  background-color: #e8c061;
 }
 @media (min-width: 1060px) {
-  .introdiuction {
-    background-image: none;
-    height: 600px;
+  .introduction__container {
+    background-position: top -40vw center;
+    position: relative;
   }
-  .introdiuction .introdiuction__box--1 {
-    flex: 1 1 42%;
-    height: inherit;
-    order: 2;
-    padding: 4rem 0;
+  .introduction__container .introduction__container--social-media {
+    position: fixed;
+    margin: 0.5rem auto -18rem;
+    display: flex;
+    justify-content: space-between;
   }
-  .introdiuction .introdiuction__box--2 {
-    flex: 1 1 55%;
-    height: inherit;
-    background-image: url("../../images/points.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: flex-end;
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--link-container {
+    display: flex;
+    flex-direction: column;
   }
-  .introdiuction .introdiuction__box--2 .introdiuction__contact-container {
-    height: 27%;
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--link-container .introduction__container--social-media__links {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--scroll-container {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    transform: rotate(90deg);
+    margin: auto 0;
+  }
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--scroll-container p {
+    width: inherit;
+    color: rgb(204, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .introduction__container .introduction__container--social-media .introduction__container--social-media--scroll-container p svg {
+    margin: 0 1rem 0;
+  }
+  .introduction__container .introduction__container--moto {
+    max-width: 800px;
+    letter-spacing: 5px;
+    margin: clamp(0.5rem, 4vw, 4rem) clamp(5rem, 10vw, 10rem) 0.5rem;
+  }
+  .introduction__container .introduction__container--moto-italice {
+    max-width: 800px;
+    margin: 0.5rem clamp(5rem, 10vw, 10rem);
+  }
+  .introduction__container .introduction__container--button {
+    margin: 7rem clamp(5rem, 10vw, 10rem) 10rem;
+    z-index: 100;
+  }
+  .introduction__container .introduction__container--button .introduction__container--button-text {
+    transition: all 0.3s ease-in-out;
+  }
+  .introduction__container .introduction__container--button .introduction__container--button-text:hover {
+    background-color: rgb(102, 101, 101);
+    color: white;
   }
 }/*# sourceMappingURL=Introduction.css.map */
