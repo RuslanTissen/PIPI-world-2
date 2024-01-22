@@ -5,4 +5,14 @@
 .meet-pipi__container .meet-pipi__container--title {
   font-weight: 800;
   text-transform: uppercase;
+}
+.meet-pipi__container .meet-pipi__container-1 .meet-pipi__container-1--img {
+  height: 700px;
+}
+.meet-pipi__container .meet-pipi__container-1 .meet-pipi__container-1--img .meet-pipi__container-1--img--container {
+  height: inherit;
+  background-image: url("../../../images/MeetPipi.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=MeetPipi.css.map */
