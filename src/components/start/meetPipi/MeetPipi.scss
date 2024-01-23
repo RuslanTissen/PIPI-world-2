@@ -12,9 +12,10 @@
 			.meet-pipi__container-1--img--container {
 				height: inherit;
 				background-image: url("../../../images/MeetPipi.jpg");
-				background-position: center;
+				background-position-y: -5vh;
 				background-repeat: no-repeat;
 				background-size: cover;
+				object-fit: cover;
 			}
 		}
 	}
