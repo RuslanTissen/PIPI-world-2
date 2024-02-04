@@ -5,6 +5,9 @@ function MeetPipi() {
 	return (
 		<div className='meet-pipi__container'>
 			<p className="meet-pipi__container--title">meet the team</p>
+			<div className="meet-pipi__container--underline-dig"></div>
+			<div className="meet-pipi__container--underline-thin"></div>
+
 			<div className="meet-pipi__container-1">
 				<div className="meet-pipi__container-1--img">
 					<div className="meet-pipi__container-1--img--container">					</div>
