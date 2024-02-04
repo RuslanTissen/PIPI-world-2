@@ -4,9 +4,11 @@ import "./MeetPipi.scss"
 function MeetPipi() {
 	return (
 		<div className='meet-pipi__container'>
-			<p className="meet-pipi__container--title">meet the team</p>
-			<div className="meet-pipi__container--underline-dig"></div>
-			<div className="meet-pipi__container--underline-thin"></div>
+			<div className="meet-pipi__container-title-box">
+				<p className="meet-pipi__container-title-box--title">meet the team</p>
+				<div className="meet-pipi__container-title-box--underline-dig"></div>
+				<div className="meet-pipi__container-title-box--underline-thin"></div>
+			</div>
 
 			<div className="meet-pipi__container-1">
 				<div className="meet-pipi__container-1--img">

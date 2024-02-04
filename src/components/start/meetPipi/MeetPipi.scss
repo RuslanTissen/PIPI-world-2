@@ -1,29 +1,28 @@
 .meet-pipi__container {
 	background-color: rgb(45, 46, 45);
 	color: white;
-	// padding: 0 clamp(3rem, 10vw, 5rem);
-	.about__container--text-container--box{
-		
-	}
-	.meet-pipi__container--title {
-		text-transform: uppercase;
-		font-size: clamp(2.5rem, 5vw, 3rem);
-		font-weight: 700;
-		font-family: "Open Sans", sans-serif;
-		font-weight: 800;
-		letter-spacing: 0.4rem;
-		margin: 0;
-		padding: 3rem 1rem 2rem 2rem;
-	}
-	.meet-pipi__container--underline-dig {
-		width: 180px;
-		height: 0.5rem;
-		background-color: rgb(166, 148, 148);
-	}
-	.meet-pipi__container--underline-thin {
-		width: auto;
-		height: 1px;
-		background-color: rgb(166, 148, 148);
+	.meet-pipi__container-title-box {
+		padding: 0 clamp(3rem, 10vw, 5rem);
+		// padding: 3rem 1rem 2rem 2rem;
+		.meet-pipi__container-title-box--title {
+			text-transform: uppercase;
+			font-size: clamp(2.5rem, 5vw, 3rem);
+			font-weight: 700;
+			font-family: "Open Sans", sans-serif;
+			font-weight: 800;
+			// letter-spacing: 0.4rem;
+			margin: 0;
+		}
+		.meet-pipi__container-title-box--underline-dig {
+			width: 180px;
+			height: 0.5rem;
+			background-color: rgb(166, 148, 148);
+		}
+		.meet-pipi__container-title-box--underline-thin {
+			width: auto;
+			height: 1px;
+			background-color: rgb(166, 148, 148);
+		}
 	}
 	.meet-pipi__container-1 {
 		.meet-pipi__container-1--img {
