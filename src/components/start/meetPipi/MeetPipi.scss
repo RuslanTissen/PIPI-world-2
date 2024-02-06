@@ -35,9 +35,22 @@
 	}
 
 	.meet-pipi__container-1--text-box {
-		padding
-		h3 {
-
+		padding: 3.5rem clamp(3rem, 10vw, 5rem) 2.5rem;
+		.meet-pipi__container-1--text-box__name {
+			font-family: "Open Sans", sans-serif;
+			font-weight: 700;
+			font-style: to-upper-case;
+			line-height: 95%;
+			font-size: 1.8rem;
+		}
+		.meet-pipi__container-1--text-box__info {
+			font-size: clamp(1.2rem, 3vw, 1.3rem);
+			font-weight: 300;
+			color: rgb(255, 253, 253);
+			line-height: 150%;
+		}
+		.meet-pipi__container-1--text-box__btn{
+			
 		}
 	}
 

@@ -14,9 +14,9 @@ function MeetPipi() {
 				<div className="meet-pipi__container-1--img-box">				</div>
 				
 				<div className="meet-pipi__container-1--text-box">
-					<h3>Coach Priscyla Tosti </h3>
-					<h6>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </h6>
-					<button></button>
+					<p className='meet-pipi__container-1--text-box__name'>Coach Priscyla Tosti </p>
+					<p className='meet-pipi__container-1--text-box__info'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+					<button className='meet-pipi__container-1--text-box__btn'></button>
 				</div>
 			</div>
 
@@ -24,7 +24,7 @@ function MeetPipi() {
 				<div className="meet-pipi__container-2--img">
 					<div className="meet-pipi__container-2--img--container">					</div>
 				</div>
-				<div className="meet-pipi__container-2--text">
+				<div className="meet-pipi__container-2--text-box">
 					<h3>IT Ruslan Tissen </h3>
 					<h6>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </h6>
 					<button></button>
