@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import "./HowSkills.scss"
-import trans from '../../../Translate'
-import { Context } from '../../../Context'
+import trans from '../../../components/Translate'
+import { Context } from '../../../components/Context'
 
 function HowSkills() {
-	const {lang, setLang} = useContext(Context)
+	const { lang, setLang } = useContext(Context)
 	return (
 		<div className='howSkills'>
 			<div className="howSkills__container">

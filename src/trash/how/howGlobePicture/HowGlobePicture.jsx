@@ -1,10 +1,10 @@
 import React, { useContext } from 'react'
 import "./HowGlobePicture.scss"
-import trans from '../../../Translate'
-import { Context } from '../../../Context'
+import trans from '../../../components/Translate'
+import { Context } from '../../../components/Context'
 
 function HowGlobePicture() {
-	const {lang, setLang} = useContext(Context)
+	const { lang, setLang } = useContext(Context)
 	return (
 		<div className='how-globe__picture'>
 			<div className="how-globe__picture--container">

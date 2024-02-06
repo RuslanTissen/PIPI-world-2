@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import "./HowPicture.scss"
-import trans from '../../../Translate'
-import { Context } from '../../../Context'
+import trans from '../../../components/Translate'
+import { Context } from '../../../components/Context'
 
 function HowPicture() {
 	const { lang } = useContext(Context)

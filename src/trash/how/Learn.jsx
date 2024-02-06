@@ -1,13 +1,13 @@
 import React, { useContext } from 'react'
 import "./How.scss"
-import { Context } from '../../Context'
+import { Context } from '../../components/Context.js'
 import HowPicture from './howPicture/HowPicture.jsx'
-import HowSteps from './howSteps/HowSteps'
+import HowSteps from './howSteps/HowSteps.jsx'
 import HowGlobePicture from './howGlobePicture/HowGlobePicture.jsx'
-import HowSkills from './howSkills/HowSkills'
-import HowAdvantages from './howAdvantages/HowAdvantages'
-import HowDecisions from './howDecisions/HowDecisions'
-import trans from '../../Translate'
+import HowSkills from './howSkills/HowSkills.jsx'
+import HowAdvantages from './howAdvantages/HowAdvantages.jsx'
+import HowDecisions from './howDecisions/HowDecisions.jsx'
+import trans from '../../components/Translate.js'
 
 function How() {
 	const { lang } = useContext(Context)
@@ -29,8 +29,8 @@ function How() {
 			<HowSkills />
 
 			<HowAdvantages />
-			
-			<HowDecisions/>
+
+			<HowDecisions />
 
 		</div>
 	)

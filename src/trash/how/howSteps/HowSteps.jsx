@@ -9,8 +9,8 @@ import howIcons6 from "../../../../images/Steps-main.png"
 import howIcons7 from "../../../../images/Steps-doc.png"
 import howIcons8 from "../../../../images/Steps-cont.png"
 import { NavLink } from 'react-router-dom';
-import trans from '../../../Translate'
-import { Context } from '../../../Context'
+import trans from '../../../components/Translate'
+import { Context } from '../../../components/Context'
 
 
 function HowSteps(props) {
