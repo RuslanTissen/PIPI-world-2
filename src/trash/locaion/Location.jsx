@@ -3,8 +3,8 @@ import "./Location.scss"
 import north_america from "../../../images/north_america.jpg"
 import europa from "../../../images/europa.jpg"
 import south_america from "../../../images/south_america.jpg"
-import trans from '../../Translate'
-import { Context } from '../../Context'
+import trans from '../../components/Translate'
+import { Context } from '../../components/Context'
 
 
 function Location() {

@@ -4,8 +4,8 @@ import { GrMysql } from "react-icons/gr"
 import { TbBrandAngular, TbBrandVue, TbBrandReactNative, TbBrandJavascript, TbBrandFigma } from "react-icons/tb"
 import { FaPython, FaAws, FaSwift } from "react-icons/fa"
 import { SiMui, SiMicrosoftazure, SiCplusplus } from "react-icons/si"
-import trans from '../../Translate'
-import { Context } from '../../Context'
+import trans from '../../components/Translate'
+import { Context } from '../../components/Context'
 import { NavLink } from 'react-router-dom'
 
 function Technologies() {

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import "./Moto.scss"
-import trans from '../../Translate'
-import { Context } from '../../Context'
+import trans from '../../components/Translate'
+import { Context } from '../../components/Context'
 
 function Moto() {
 	const { lang, setLang } = useContext(Context)
