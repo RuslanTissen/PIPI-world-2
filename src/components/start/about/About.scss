@@ -6,7 +6,7 @@
 		background-color: rgb(90, 54, 58);
 		font-family: "Open Sans", sans-serif;
 		color: white;
-		padding: 0 clamp(3rem, 10vw, 5rem);
+		padding: 0 clamp(2rem, 3vw, 3rem);
 		.about__container--text-container--box {
 			margin: 5rem auto 6rem auto;
 			.about__container--text-container__title {
@@ -33,7 +33,7 @@
 				font-size: 1rem;
 				font-weight: 100;
 				color: rgb(221, 220, 220);
-				line-height: 180%;
+				// line-height: 180%;
 			}
 		}
 	}

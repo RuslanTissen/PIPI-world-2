@@ -22,7 +22,7 @@ function MeetPipi() {
 				<div className="meet-pipi__container-1--img-box">				</div>
 
 				<div className="meet-pipi__container-1--text-box">
-					<p className='meet-pipi__container-1--text-box--name'>Coach Priscyla Tosti </p>
+					<p className='meet-pipi__container-1--text-box--name'> Priscyla Tosti (coach) </p>
 					<p className='meet-pipi__container-1--text-box--info'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
 					<div className='meet-pipi__container-1--text-box--btn'>
 						<NavLink className="meet-pipi__container-1--text-box--btn-white" to="Learn" onClick={scrollToTheTop}>Book now </NavLink>
@@ -32,6 +32,19 @@ function MeetPipi() {
 			</div>
 
 			<div className="meet-pipi__container-2">
+				<div className="meet-pipi__container-2--img-box">				</div>
+
+				<div className="meet-pipi__container-2--text-box">
+					<p className='meet-pipi__container-2--text-box--name'> Tissen Team (IT)</p>
+					<p className='meet-pipi__container-2--text-box--info'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. </p>
+					<div className='meet-pipi__container-2--text-box--btn'>
+						<NavLink className="meet-pipi__container-2--text-box--btn-white" to="Learn" onClick={scrollToTheTop}>Book now </NavLink>
+						<NavLink className="meet-pipi__container-2--text-box--btn-gray" to="Learn" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
+					</div>
+				</div>
+			</div>
+
+			{/* <div className="meet-pipi__container-2">
 				<div className="meet-pipi__container-2--img">
 					<div className="meet-pipi__container-2--img--container">					</div>
 				</div>
@@ -43,7 +56,7 @@ function MeetPipi() {
 						<NavLink className="meet-pipi__container-2--text-box--btn-gray" to="Learn" onClick={scrollToTheTop}><FaArrowRight /> </NavLink>
 					</div>
 				</div>
-			</div>
+			</div> */}
 
 		</div>
 	)
