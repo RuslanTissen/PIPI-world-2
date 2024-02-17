@@ -1,0 +1,85 @@
+.service {
+	background-color: rgb(90, 54, 58);
+	color: white;
+	font-family: "Open Sans", sans-serif;
+	padding: 3.5rem clamp(2rem, 3vw, 3rem) 2.5rem;
+	.service__title-box {
+		.service__title-box--title {
+			text-transform: uppercase;
+			font-size: clamp(2.5rem, 5vw, 3rem);
+			font-weight: 800;
+			letter-spacing: 0.3rem;
+			margin: 1rem 0;
+		}
+		.service__title-box--underline-dig {
+			background-color: rgb(166, 148, 148);
+			width: clamp(150px, 35vw, 400px);
+			height: 0.7rem;
+		}
+		.service__title-box--underline-thin {
+			background-color: rgb(166, 148, 148);
+			width: auto;
+			height: 1px;
+		}
+		.service__link {
+			display: flex;
+			width: clamp(250px, 50vw, 500px);
+			margin: 5rem auto 3rem 0;
+			padding: 1rem clamp(0.5rem, 5vw, 500px);
+			height: fit-content;
+			justify-content: center;
+			align-items: center;
+			text-transform: uppercase;
+			font-weight: 900;
+			letter-spacing: 0.3rem;
+			font-size: clamp(0.8rem, 4vw, 1.5rem);
+			color: black;
+			text-decoration: none;
+			background-color: rgb(232, 192, 97);
+			text-align: center; 
+		}
+	}
+	.exercises {
+		display: flex;
+		flex-direction: column;
+		.img1 {
+			height: 50vh;
+			width: 90vw;
+			background-image: url("../../../images/MeetPipi.jpg");
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.exercises__text-cont {
+			padding: 2rem 1rem 2rem 3rem;
+			.exercises__title {
+				font-size: clamp(2rem, 5vw, 2.5rem);
+				font-weight: 800;
+				letter-spacing: 0.3rem;
+				// margin: 1rem 0;
+			}
+			.exercises__text {
+				font-size: 1rem;
+				padding: 2rem 0;
+				border-bottom: 1px solid white;
+			}
+			.exercises__link {
+				display: flex;
+				width: clamp(150px, 50vw, 500px);
+				margin: 5rem auto 3rem 0;
+				padding: 1rem clamp(0.5rem, 5vw, 500px);
+				height: fit-content;
+				justify-content: center;
+				align-items: center;
+				text-transform: uppercase;
+				font-weight: 900;
+				letter-spacing: 0.3rem;
+				font-size: clamp(0.8rem, 4vw, 1.5rem);
+				color: black;
+				text-decoration: none;
+				background-color: rgb(232, 192, 97);
+				text-align: center;
+			}
+		}
+	}
+}

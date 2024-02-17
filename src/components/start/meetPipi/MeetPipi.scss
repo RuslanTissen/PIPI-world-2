@@ -9,14 +9,13 @@
 			text-transform: uppercase;
 			font-size: clamp(2.5rem, 5vw, 3rem);
 			font-weight: 700;
-			font-family: "Open Sans", sans-serif;
 			font-weight: 800;
 			letter-spacing: 0.3rem;
 			margin: 0;
 		}
 		.meet-pipi__container-title-box--underline-dig {
 			width: 180px;
-			height: 0.5rem;
+			height: 0.7rem;
 			background-color: rgb(166, 148, 148);
 		}
 		.meet-pipi__container-title-box--underline-thin {
@@ -62,7 +61,6 @@
 			font-size: clamp(1.2rem, 3vw, 1.3rem);
 			font-weight: 300;
 			color: rgb(255, 253, 253);
-			// line-height: 150%;
 		}
 		.meet-pipi__container-1--text-box--btn,
 		.meet-pipi__container-2--text-box--btn {
