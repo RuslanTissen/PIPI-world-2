@@ -1,21 +1,8 @@
 import React from 'react'
 import "./Success.scss"
-// import { useState } from 'react'
-
+import { NavLink } from 'react-router-dom'
 
 function Success() {
-	// const [show, setShow] = useState(false)
-	// const [active, setActive] = useState(true)
-
-
-	// function eddText() {
-	// 	setShow(!show)
-	// 	setActive(!active)
-	// }
-
-	// const arrowDown = "↓"
-	// const arrowUp = "^"
-
 	return (
 		<div className='success'>
 			<div className="success__cont">
@@ -24,14 +11,9 @@ function Success() {
 					<div className="price_box"><span>$</span> 800</div>
 					<h6>12 Week Intensive Program</h6>
 					<p>Valid for 12 weeks</p>
-					<button className='slct__bnt'>SELECT</button>
+					<NavLink className='success__link'>SELECT</NavLink>
 				</div>
 
-				{/* <div className="tic" onClick={() => eddText()}>
-					{active ? <button>arrowDown</button> : <button>ArrowUp</button>}
-				</div> */}
-
-				{/* {show && */}
 				 <div className="success__cont--2">
 
 					<ul>
