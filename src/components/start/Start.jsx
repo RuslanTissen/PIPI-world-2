@@ -6,6 +6,7 @@ import MeetPipi from './meetPipi/MeetPipi.jsx'
 import Success from './success/Success.jsx'
 import Clients from './clients/Clients.jsx';
 import Services from './services/Services.jsx';
+import Motto from './motto/Motto.jsx'
 
 function Start() {
 	return (
@@ -21,6 +22,8 @@ function Start() {
 			<Clients />
 
 			<Services />
+
+			<Motto/>
 
 		</div>
 	)
