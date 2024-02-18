@@ -48,7 +48,8 @@
 			background-image: url("../../../images/MeetPipi.jpg");
 			background-position: center;
 			background-repeat: no-repeat;
-			background-size: cover;
+			background-size: contain;
+			object-fit: contain;
 			transition: all 0.3s ease-in-out;
 			opacity: .7;
 		}
@@ -56,12 +57,12 @@
 			opacity: 1;
 		}
 		.exercises__text-cont {
-			padding: 2rem 1rem 2rem 3rem;
+			padding: 2rem 1rem 2rem clamp(1.5rem, 2vw, 3rem);
 			.exercises__title {
-				font-size: clamp(2rem, 5vw, 2.5rem);
+				font-size: clamp(1rem, 2vw, 2.5rem);
 				font-weight: 800;
 				letter-spacing: 0.3rem;
-				// margin: 1rem 0;
+				overflow: hidden;
 			}
 			.exercises__text {
 				font-size: 1rem;

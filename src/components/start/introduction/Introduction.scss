@@ -1,17 +1,20 @@
 .introduction__container {
+	height: fit-content;
 	font-family: "Open Sans", sans-serif;
 	justify-content: center;
 	background-attachment: fixed;
 	background-image: url("../../../images/introduction-light-dark.jpg");
-	background-position: top -350px center;
+	background-position: top clamp(-350px, 20vw, 0vw) center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
-	padding-top: 11rem;
+	// padding-top: 11rem;
 	.introduction__container--social-media {
-		width: 100%;
+		width: fit-content;
 		margin: 0.5rem clamp(2rem, 3vw, 3rem);
+		padding-top: 11rem;
+
 		.introduction__container--social-media__links {
 			color: white;
 			font-size: clamp(1.5rem, 4vw, 2rem);
@@ -22,8 +25,9 @@
 		}
 	}
 	.introduction__container--moto {
+		max-width: 600px;
 		color: white;
-		font-size: clamp(2.8rem, 13vw, 7rem);
+		font-size: clamp(2.3rem, 10vw, 7rem);
 		font-weight: 800;
 		line-height: 90%;
 		margin: 3.5rem clamp(2rem, 3vw, 3rem) 1rem;
@@ -72,8 +76,11 @@
 	@media (min-width: 1060px) {
 		background-position: top -40vw center;
 		position: relative;
+		// padding-top: 11rem;
+		height: 100vh;
 		.introduction__container--social-media {
 			position: fixed;
+			width: 100%;
 			margin: 0.5rem auto -18rem;
 			display: flex;
 			justify-content: space-between;
@@ -106,9 +113,10 @@
 			}
 		}
 		.introduction__container--moto {
-			max-width: 800px;
+			max-width: 1100px;
 			letter-spacing: 5px;
 			margin: clamp(0.5rem, 4vw, 4rem) clamp(5rem, 10vw, 10rem) 0.5rem;
+			// padding-top: 11rem;
 		}
 		.introduction__container--moto-italice {
 			max-width: 800px;
