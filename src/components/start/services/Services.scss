@@ -49,6 +49,11 @@
 			background-position: center;
 			background-repeat: no-repeat;
 			background-size: cover;
+			transition: all 0.3s ease-in-out;
+			opacity: .7;
+		}
+		.img1:hover {
+			opacity: 1;
 		}
 		.exercises__text-cont {
 			padding: 2rem 1rem 2rem 3rem;

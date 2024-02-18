@@ -6,7 +6,8 @@ function Motto() {
 		<div className='motto'>
 			<div className="motto__cont">
 				<div className="motto__cont--text">
-					“I'm a testimonial. Click to edit me and add text that says something nice about you and your services.”
+					“I'm a testimonial. 
+					Click to edit me and add text that says something nice about you and your services.”
 				</div>
 				<div className="motto__cont--name">Coach Evan</div>
 			</div>
