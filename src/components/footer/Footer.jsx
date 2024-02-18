@@ -57,7 +57,7 @@ function Footer() {
 
 				<div className="footer__logo--social-container">
 					<NavLink className='footer__logo--social-container-link' to="Contact" onClick={scrollToTheTop}><SiGmail /></NavLink>
-					<a className='footer__logo--social-container-link' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
+					<a className='footer__logo--link-whatsapp' href='https://wa.me/14155797059' target='_blank'><FaWhatsapp /></a>
 					<a className='footer__logo--social-container-link' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
 					<a className='footer__logo--social-container-link' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
 				</div>

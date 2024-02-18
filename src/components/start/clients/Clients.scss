@@ -34,3 +34,16 @@
 		}
 	}
 }
+@media (min-width: 1060px) {
+	.clients{
+		.clients__title-box{
+			max-width: 1000px;
+			margin-inline: auto;
+		}
+		.clients__names{
+			margin: 4rem 0 3rem;
+			display: flex;
+			justify-content: space-around;
+		}
+	}
+}

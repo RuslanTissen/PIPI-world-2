@@ -2,7 +2,6 @@ import React from 'react'
 import "./Services.scss"
 import Exercises from './Exercises'
 import { NavLink } from 'react-bootstrap'
-// import img1 from "../../../images/MeetPipi.jpg"
 
 function Services() {
 	return (
@@ -15,7 +14,6 @@ function Services() {
 			</div>
 
 			<Exercises
-				// exeImg={`${img1}` }
 				exeImg={`img1`}
 				exeTitle={`INDIVIDUAL SESSIONS`}
 				exeText={`This 1-on-1 session is built for individual athletes`}
