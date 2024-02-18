@@ -1,22 +1,27 @@
 .contact {
 	height: fit-content;
-	margin: 66px 0 0;
+	// margin: 66px 0 0;
 	font-family: "Montserrat", sans-serif;
-	background-color: white;
+	background-image: url("../../../images/introduction-dark.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	padding: 3rem 0;
 	.contact__conatiner {
 		max-width: 1500px;
 		margin: 0 auto;
 		min-height: 500px;
-		padding: 0 1rem 40px;
+		padding: 6rem 1rem 40px;
 		.contact__email-and-whatsapp {
 			width: 70%;
 			margin: clamp(0.5rem, 3.5vw, 3.5rem) auto clamp(2rem, 5vw, 5rem);
 			height: fit-content;
 			display: flex;
 			flex-wrap: wrap;
-			.email__link {
-				flex: 1 1 50%;
+			.email__link,
+			.upwork__link,
+			.instagram__link {
+				flex: 1 1 25%;
 				font-size: clamp(3.3rem, 6.5vw, 6.5rem);
 				display: grid;
 				place-items: center;
@@ -26,7 +31,7 @@
 				}
 			}
 			.whats-app__link {
-				flex: 1 1 50%;
+				flex: 1 1 25%;
 				display: grid;
 				place-items: center;
 				font-size: clamp(2.5rem, 5vw, 5rem);
@@ -35,6 +40,8 @@
 					transition: all 0.3s ease-in-out;
 				}
 			}
+			.upwork__link,
+			.instagram__link,
 			.email__link:hover,
 			.whats-app__link:hover {
 				svg:hover {
@@ -48,10 +55,13 @@
 			margin-bottom: 0;
 			text-align: center;
 			font-weight: 600;
+			color: white;
 		}
 		form {
 			max-width: 1060px;
 			margin: 0 auto;
+			color: white;
+			opacity: 0.8;
 			.form__field {
 				display: flex;
 				flex-direction: column;
@@ -62,43 +72,48 @@
 					width: 100%;
 					line-height: clamp(2rem, 3vw, 3rem);
 					font-size: clamp(1rem, 1.5vw, 1.5rem);
-					border: 1px solid rgb(177, 176, 176);
+					// border: 1px solid rgb(177, 176, 176);
+					border: none;
+					background-color: gray;
 				}
 				textarea {
 					width: 100%;
 					height: 150px;
 					font-size: clamp(1rem, 1.5vw, 1.5rem);
-					border: 1px solid rgb(177, 176, 176);
+					border: none;
+					// border: 1px solid rgb(177, 176, 176);
+					background-color: gray;
 				}
 			}
 			.form__button-container {
 				button {
 					--color: hsl(208, 72%, 39%);
 					padding: clamp(0.5rem, 0.8vw, 0.8rem) clamp(3rem, 5.5vw, 5.5rem);
-					background-color:  hsl(208, 85%, 73%);
+					background-color: hsl(208, 55%, 54%);
 					margin: 0 auto;
-					color: black;
+					color: rgb(31, 27, 27);
 					font-size: clamp(1.2rem, 1.5vw, 1.5rem);
-					border: 3px solid var(--color);
-					border-radius: 0.25em;
+					// border: 3px solid var(--color);
+					// border-radius: 0.25em;
+					border: none;
 					cursor: pointer;
-
 					position: relative;
 					isolation: isolate;
+					font-weight: 800;
+					text-transform: uppercase;
 				}
-				button::after{
+				button::after {
 					content: "";
 					position: absolute;
 					z-index: -1;
 					background: var(--color);
 					inset: 0;
-			
 					scale: 0 1;
 					transform-origin: right;
 					transition: scale 450ms;
 				}
 				button:hover::after,
-				button:focus-visible::after{
+				button:focus-visible::after {
 					transform-origin: left;
 					scale: 1 1;
 				}
@@ -108,12 +123,14 @@
 			width: 100%;
 			border-top: 1px solid rgb(149, 148, 148);
 			margin-top: clamp(1.5rem, 3vw, 3rem);
+			color: white;
 			.contact__conatiner--statement {
 				font-size: clamp(1.3rem, 3vw, 3rem);
 				margin-top: clamp(1.5rem, 3vw, 3rem);
 				margin-bottom: 0;
 				text-align: center;
-				font-weight: 600;
+				font-weight: 500;
+				font-style: italic;
 			}
 			.contact__conatiner--phons {
 				text-align: center;

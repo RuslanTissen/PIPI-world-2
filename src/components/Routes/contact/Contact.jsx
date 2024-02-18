@@ -5,6 +5,8 @@ import emailjs from '@emailjs/browser';
 import { IoIosMail } from "react-icons/io"
 import trans from "../../Translate.js"
 import { Context } from '../../Context';
+import { SiUpwork } from "react-icons/si";
+import { FaInstagram } from 'react-icons/fa'
 
 
 function Contact() {
@@ -28,9 +30,9 @@ function Contact() {
 			<div className="contact__conatiner">
 				<div className="contact__email-and-whatsapp">
 					<a className='email__link' href="mailto:info@tissen.tech"><IoIosMail /></a>
-					<a className='whats-app__link' href={`https://wa.me/541164210650?text=Hi`} target="_blank" rel="noreferrer">
-						<BsWhatsapp />
-					</a>
+					<a className='whats-app__link' href='https://wa.me/14155797059' target="_blank" rel="noreferrer">	<BsWhatsapp />	</a>
+					<a className='upwork__link' href='https://www.upwork.com/freelancers/~01fe4cfc87ce82d6a8' target='_blank'><SiUpwork /></a>
+					<a className='instagram__link' href='https://www.instagram.com/pipitosti/' target='_blank'><FaInstagram /></a>
 				</div>
 
 				<h2 className='form-statement'>{trans[lang].contactTitle1}</h2>
@@ -66,8 +68,8 @@ function Contact() {
 
 				<div className="contact__conatiner--phone-container">
 					<h2 className='contact__conatiner--statement'>{trans[lang].contactTitle2}</h2>
-					<h4 className='contact__conatiner--phons'>{trans[lang].contactGermany}  (+49) 176-8315-7254</h4>
-					<h4 className='contact__conatiner--phons'>{trans[lang].contactArgentina} (+54) 11-5763-9301</h4>
+					<h4 className='contact__conatiner--phons'>USA:  (+1) 176-8315-7254</h4>
+					{/* <h4 className='contact__conatiner--phons'>{trans[lang].contactArgentina} (+54) 11-5763-9301</h4> */}
 				</div>
 
 			</div>

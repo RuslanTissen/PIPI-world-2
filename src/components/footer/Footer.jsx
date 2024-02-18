@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { NavLink } from 'react-router-dom'
-import { FaWhatsapp, FaInstagram, FaArrowRight } from 'react-icons/fa'
+import { FaWhatsapp, FaInstagram} from 'react-icons/fa'
 import { SiGmail, SiUpwork } from "react-icons/si";
 import { IoDiamondSharp } from "react-icons/io5";
 // import trans from '../Translate.js';
